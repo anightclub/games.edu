@@ -1,0 +1,104 @@
+.tm-main-button{
+    font-size: 25px;
+    width: 300px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 0;
+    margin-top: 5px;
+    border-radius: 60px;
+}
+.tm-main-button:hover,
+.tm-test-button:hover,
+.tm-back-button:hover{
+    text-shadow: 0 0 10px #03bcf4,0 0 20px #03bcf4,0 0 40px #03bcf4,0 0 80px #03bcf4,0 0 160px #03bcf4;
+    box-shadow: 0 0 10px #03bcf4,0 0 20px #03bcf4,0 0 40px #03bcf4;
+}
+.tm-test-button{
+    font-size: 25px;
+    background: transparent;
+    border: 2px #fff;
+    border-bottom: solid;
+    border-top: solid;
+    border-right: solid;
+    color: #fff;
+    padding: 5px 50px 5px 0px;
+    margin-top: 5px;
+    border-radius: 0 60px 60px 0;
+}
+.tm-back-button{
+    font-size: 25px;
+    background: transparent;
+    border: 2px #fff;
+    border-bottom: solid;
+    border-top: solid;
+    border-left: solid;
+    color: #fff;
+    padding: 5px 0px 5px 50px;
+    margin-top: 5px;
+    border-radius: 60px 0 0 60px;
+}
+.btn-block{
+    display: flex;
+    justify-content: space-between;
+}
+.tm-main-body{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 30px;
+}
+.tm-main-subhead{
+    font-size: 15px;
+    margin: 10px 180px 0 180px;
+    text-align: center;
+}
+.txt-centre{
+    text-align: center;
+}
+.basic-container{
+    margin: 0 100px 50px;
+    text-align: center;
+}
+.letter-block{
+    text-align: left;
+    display: inline-block;
+    border: .5px solid;
+    padding: 7px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border-radius: 10px;
+}
+.q-result{
+    background-color: #005d7a;
+    margin: 5px 10px;
+    font-size: 60px;
+    width: 80px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: Jameel Noori Nastaleeq;
+}
+.letter-block div{
+    background-color: #005d7a;
+    display: inline-block;
+    margin: 5px 10px;
+    font-size: 60px;
+    width: 80px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: Jameel Noori Nastaleeq;
+}
+.letter{
+    border: 1px;
+    border-style: double;
+    font-size: 40px;
+}
+.check-box{
+    text-align: left;
+    margin: 3px 100px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+.txt-centre h3{
+    margin: -30px 0 20px;
+}

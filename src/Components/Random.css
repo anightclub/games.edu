@@ -1,0 +1,99 @@
+.header{
+    margin: auto;
+    text-align: center;
+    font-size: 80px;
+    margin: 40px 0 100px 0;
+    width: 100%;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+    line-height: 0.84em;
+    outline: none;
+    color: #fff;
+    text-shadow: 0 0 10px #03bcf4,0 0 20px #03bcf4,0 0 40px #03bcf4,0 0 80px #03bcf4,0 0 160px #03bcf4;
+}
+.box{
+    background-color: transparent;
+    margin: auto;
+    border: 3px solid white;
+    color: white;
+    width: 80%;
+    border-radius: 5px;
+    height: 3in;
+}
+.alpha-subhead{
+    text-align: center;
+    margin: 10px;
+}
+.alpha-body-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bt-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 1.5in;
+}
+.box h3{
+    color: #fff;
+}
+.circle{
+    width: 1in;
+    height: 1in;
+    border: 1px solid black;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    box-shadow: 3px 3px 3px 3px #fff inset;
+}
+.q-button1{
+    font-size: 25px;
+    width: 300px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 0;
+    border-radius: 60px;
+}
+.a-button1{
+    font-size: 25px;
+    width: 300px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 5px 0;
+    margin-top: 5px;
+    border-radius: 60px;
+}
+.a-button1:hover{
+    text-shadow: 0 0 10px #03bcf4,0 0 20px #03bcf4,0 0 40px #03bcf4,0 0 80px #03bcf4,0 0 160px #03bcf4;
+    box-shadow: 0 0 10px #03bcf4,0 0 20px #03bcf4,0 0 40px #03bcf4;
+}
+.q-button1:hover{
+    text-shadow: 0 0 10px #03bcf4,0 0 20px #03bcf4,0 0 40px #03bcf4,0 0 80px #03bcf4,0 0 160px #03bcf4;
+    box-shadow: 0 0 10px #03bcf4,0 0 20px #03bcf4,0 0 40px #03bcf4;
+}
+.q-button2{
+    display: none;
+}
+.a-button2{
+    display: none;
+}
+.back-link{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.alpha-ans-box h6{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.tm-basic-main{
+    text-align: center;
+}
